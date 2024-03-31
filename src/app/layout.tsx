@@ -1,10 +1,15 @@
 import React from "react";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import PageLayout from "@/components/page-layout/PageLayout";
+
+import "../lib/styles/main.css";
 
 const RootLayout = ({ children }: React.PropsWithChildren) => (
   <html lang="en">
     <body>
-      <AntdRegistry>{children}</AntdRegistry>
+      <AntdRegistry>
+        <PageLayout>{children}</PageLayout>
+      </AntdRegistry>
     </body>
   </html>
 );
