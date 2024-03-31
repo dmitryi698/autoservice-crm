@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "jshint.options": { "esversion": 9 }
+  },
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.mjs": "javascriptreact"
+  },
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": false,
+  "prettier.bracketSameLine": true,
+  "prettier.trailingComma": "all",
+  "prettier.endOfLine": "lf",
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[plantuml]": {
+    "editor.defaultFormatter": "jebbs.plantuml"
+  },
+  "antdRush.language": "English",
+  "antdRush.defaultAntdMajorVersion": "^4",
+  "files.insertFinalNewline": true
+}
